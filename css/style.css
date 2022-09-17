@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+header {
+    box-shadow: 0 5px 25px #f89020;
+    padding: 21px 0px 102px 60px;
+}
+
+.wrapper {
+    width: 1800px;
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+/* nav start  */
+nav {
+    width: 73%;
+    float: left;
+    margin: 33px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 26px;
+    color: #ee624b;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #473675;
+}
